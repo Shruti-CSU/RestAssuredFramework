@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="APITestSuite" parallel="false">
+    <test name="AllAPITests">
+        <classes>
+            <class name="com.api.tests.CreatePostTest"/>
+            <class name="com.api.tests.CreateUserTest"/>
+            <class name="com.api.tests.GetUserTest"/>
+            <class name="com.api.tests.UpdatePostTest"/>
+        </classes>
+    </test>
+</suite>
+
+
